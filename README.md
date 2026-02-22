@@ -138,3 +138,73 @@ This phase prioritizes research transparency over guaranteed implementation.
 # 🧠 Architecture Vision
 
 DRIVE will follow a modular plugin structure:
+
+drive/
+├── 📁 core
+│   ├── 📁 io
+│   ├── 📁 hashing
+│   └── 📁 logging
+│
+├── 📁 platforms
+│   ├── 📁 ps1
+│   ├── 📁 ps2
+│   ├── 📁 wii
+│   ├── 📁 gamecube
+│   └── 📁 xbox
+│
+└── 📁 frontend
+    ├── 📁 cli
+    └── 📁 gui
+
+This allows:
+- Console-specific modules
+- Easier community contributions
+- Legal isolation of experimental components
+
+---
+
+# 🔍 Verification Philosophy
+
+Whenever possible, DRIVE will:
+
+- Generate full-disc hashes
+- Support Redump-style verification
+- Preserve raw sector accuracy
+- Avoid altering disc structure
+
+Preservation > Convenience
+
+---
+
+# 🛠 Tech Stack (Proposed)
+
+- Python (Core logic)
+- C/C++ modules (optional performance layer)
+- PyQt or similar (GUI)
+- Native OS optical drive APIs
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+Please:
+- Follow clean code practices
+- Document research thoroughly
+- Avoid distributing copyrighted content
+- Focus on preservation and legality
+
+---
+
+# 🚀 Long-Term Vision
+
+Project DRIVE aims to become:
+
+- A preservation-focused alternative to closed-source dumping tools
+- A research hub for optical disc archival
+- A scalable framework that can expand as technology evolves
+
+---
+
+**Preserve the past. Build the future.**
