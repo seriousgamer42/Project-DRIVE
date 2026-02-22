@@ -140,21 +140,21 @@ This phase prioritizes research transparency over guaranteed implementation.
 DRIVE will follow a modular plugin structure:
 
 drive/
-├── 📁 core
-│   ├── 📁 io
-│   ├── 📁 hashing
-│   └── 📁 logging
+├── core
+│   ├── io
+│   ├── hashing
+│   └── logging
 │
-├── 📁 platforms
-│   ├── 📁 ps1
-│   ├── 📁 ps2
-│   ├── 📁 wii
-│   ├── 📁 gamecube
-│   └── 📁 xbox
+├── platforms
+│   ├── ps1
+│   ├── ps2
+│   ├── wii
+│   ├── gamecube
+│   └── xbox
 │
-└── 📁 frontend
-    ├── 📁 cli
-    └── 📁 gui
+└── frontend
+    ├── cli
+    └── gui
 
 This allows:
 - Console-specific modules
